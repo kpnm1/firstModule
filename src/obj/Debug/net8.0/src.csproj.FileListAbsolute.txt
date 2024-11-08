@@ -1,0 +1,15 @@
+D:\projectsC#\firstModule\src\bin\Debug\net8.0\src.exe
+D:\projectsC#\firstModule\src\bin\Debug\net8.0\src.deps.json
+D:\projectsC#\firstModule\src\bin\Debug\net8.0\src.runtimeconfig.json
+D:\projectsC#\firstModule\src\bin\Debug\net8.0\src.dll
+D:\projectsC#\firstModule\src\bin\Debug\net8.0\src.pdb
+D:\projectsC#\firstModule\src\obj\Debug\net8.0\src.GeneratedMSBuildEditorConfig.editorconfig
+D:\projectsC#\firstModule\src\obj\Debug\net8.0\src.AssemblyInfoInputs.cache
+D:\projectsC#\firstModule\src\obj\Debug\net8.0\src.AssemblyInfo.cs
+D:\projectsC#\firstModule\src\obj\Debug\net8.0\src.csproj.CoreCompileInputs.cache
+D:\projectsC#\firstModule\src\obj\Debug\net8.0\src.sourcelink.json
+D:\projectsC#\firstModule\src\obj\Debug\net8.0\src.dll
+D:\projectsC#\firstModule\src\obj\Debug\net8.0\refint\src.dll
+D:\projectsC#\firstModule\src\obj\Debug\net8.0\src.pdb
+D:\projectsC#\firstModule\src\obj\Debug\net8.0\src.genruntimeconfig.cache
+D:\projectsC#\firstModule\src\obj\Debug\net8.0\ref\src.dll
