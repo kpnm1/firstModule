@@ -19,10 +19,11 @@
             //Console.Write("son kiriting: ");
             //var number = Convert.ToInt32(Console.ReadLine());
             //var counter = 0;
-            //while (number > 0)
+            //while (true)
             //{
-            //    if (number % 2  == 0) counter++;
+            //    if (number % 2 == 0) counter++;
             //    number /= 10;
+            //    if (number == 0) break;
             //}
             //Console.WriteLine("sonda " + counter + " ta juft raqam bor");
 
