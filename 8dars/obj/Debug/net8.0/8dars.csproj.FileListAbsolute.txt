@@ -1,0 +1,15 @@
+D:\projectsC#\firstModule\8dars\bin\Debug\net8.0\8dars.exe
+D:\projectsC#\firstModule\8dars\bin\Debug\net8.0\8dars.deps.json
+D:\projectsC#\firstModule\8dars\bin\Debug\net8.0\8dars.runtimeconfig.json
+D:\projectsC#\firstModule\8dars\bin\Debug\net8.0\8dars.dll
+D:\projectsC#\firstModule\8dars\bin\Debug\net8.0\8dars.pdb
+D:\projectsC#\firstModule\8dars\obj\Debug\net8.0\8dars.GeneratedMSBuildEditorConfig.editorconfig
+D:\projectsC#\firstModule\8dars\obj\Debug\net8.0\8dars.AssemblyInfoInputs.cache
+D:\projectsC#\firstModule\8dars\obj\Debug\net8.0\8dars.AssemblyInfo.cs
+D:\projectsC#\firstModule\8dars\obj\Debug\net8.0\8dars.csproj.CoreCompileInputs.cache
+D:\projectsC#\firstModule\8dars\obj\Debug\net8.0\8dars.sourcelink.json
+D:\projectsC#\firstModule\8dars\obj\Debug\net8.0\8dars.dll
+D:\projectsC#\firstModule\8dars\obj\Debug\net8.0\refint\8dars.dll
+D:\projectsC#\firstModule\8dars\obj\Debug\net8.0\8dars.pdb
+D:\projectsC#\firstModule\8dars\obj\Debug\net8.0\8dars.genruntimeconfig.cache
+D:\projectsC#\firstModule\8dars\obj\Debug\net8.0\ref\8dars.dll
