@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Services\\BookService.cs",
               "ToolTip": "D:\\projectsC#\\firstModule\\8dars\\Services\\BookService.cs",
               "RelativeToolTip": "Services\\BookService.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAwwGUAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwGUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T11:08:13.834Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "Models\\Book.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwAYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:07:36.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T11:07:36.146Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAcwDoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T04:27:55.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T04:27:55.033Z"
             }
           ]
         }

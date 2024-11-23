@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\projectsC#\\firstModule\\8dars\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A6705EF-27BF-4366-81D8-AFC384186F35}|8dars.csproj|d:\\projectsc#\\firstmodule\\8dars\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A6705EF-27BF-4366-81D8-AFC384186F35}|8dars.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A6705EF-27BF-4366-81D8-AFC384186F35}|8dars.csproj|d:\\projectsc#\\firstmodule\\8dars\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A6705EF-27BF-4366-81D8-AFC384186F35}|8dars.csproj|solutionrelative:services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A6705EF-27BF-4366-81D8-AFC384186F35}|8dars.csproj|d:\\projectsc#\\firstmodule\\8dars\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A6705EF-27BF-4366-81D8-AFC384186F35}|8dars.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A6705EF-27BF-4366-81D8-AFC384186F35}|8dars.csproj|d:\\projectsc#\\firstmodule\\8dars\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A6705EF-27BF-4366-81D8-AFC384186F35}|8dars.csproj|solutionrelative:services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A6705EF-27BF-4366-81D8-AFC384186F35}|8dars.csproj|d:\\projectsc#\\firstmodule\\8dars\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A6705EF-27BF-4366-81D8-AFC384186F35}|8dars.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "BookService.cs",
               "DocumentMoniker": "D:\\projectsC#\\firstModule\\8dars\\Services\\BookService.cs",
               "RelativeDocumentMoniker": "Services\\BookService.cs",
               "ToolTip": "D:\\projectsC#\\firstModule\\8dars\\Services\\BookService.cs",
               "RelativeToolTip": "Services\\BookService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAwwGUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T11:08:13.834Z",
               "EditorCaption": ""
@@ -43,8 +43,8 @@
               "Title": "Book.cs",
               "DocumentMoniker": "D:\\projectsC#\\firstModule\\8dars\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Models\\Book.cs",
-              "ToolTip": "D:\\projectsC#\\firstModule\\8dars\\Models\\Book.cs*",
-              "RelativeToolTip": "Models\\Book.cs*",
+              "ToolTip": "D:\\projectsC#\\firstModule\\8dars\\Models\\Book.cs",
+              "RelativeToolTip": "Models\\Book.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwAYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T11:07:36.146Z",
@@ -52,13 +52,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\projectsC#\\firstModule\\8dars\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\projectsC#\\firstModule\\8dars\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAABoAAAAAAAAAAAAYwCsAAAAbAAAAAAAAAA==",
+              "ToolTip": "D:\\projectsC#\\firstModule\\8dars\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwDoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T04:27:55.033Z",
               "EditorCaption": ""
