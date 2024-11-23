@@ -130,5 +130,51 @@ public class PostService
         return sortedPosts;
     }
 
+    public bool AddCommentToPost(Guid postId, string comment)
+    {
+        var commentAdded = false;
+        foreach (var post in Posts)
+        {
+            if (post.Id == postId)
+            {
+                post.Comments.Add(comment);
+                commentAdded = true;
+                break;
+            }
+        }
 
+        return commentAdded;
+    }
+
+    public bool AddLikeToPost(Guid postId)
+    {
+        var postLiked = false;
+        foreach (var post in Posts)
+        {
+            if (post.Id == postId)
+            {
+                post.QuantityLikes++;
+                postLiked = true;
+                break;
+            }
+        }
+
+        return postLiked;
+    }
+
+    public bool AddViewerNameToPost(Guid postId, string viewerName)
+    {
+        var viewerNameAdded = false;
+        foreach (var post in Posts)
+        {
+            if (post.Id == postId)
+            {
+                post.ViewerNames.Add(viewerName);
+                viewerNameAdded = true;
+                break;
+            }
+        }
+
+        return viewerNameAdded;
+    }
 }
