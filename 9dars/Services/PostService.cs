@@ -118,16 +118,12 @@ public class PostService
     public List<Post> GetPostsByComment(string comment)
     {
         var sortedPosts = new List<Post>();
-        for (var i = 0; i < Posts.Count(); i++)
+        foreach (var post in Posts)
         {
-            for (var j = 0; j < Posts[i].Comments.Count(); j++)
+            var getComments = post.Comments;
+            if (getComments.Contains(comment))
             {
-                var getComment = Posts[i].Comments[j];
-
-                if (getComment == comment)
-                {
-                    sortedPosts.Add(Posts[i]);
-                }
+                sortedPosts.Add(post);
             }
         }
 
