@@ -70,13 +70,11 @@ public class PostService
 
     public Post GetMostViewedPost()
     {
-        var mostViewedPost = Posts[0].ViewerNames.Count;
-        var post = Posts[0];
+        var post = new Post();
         foreach (var element in Posts)
         {
-            if (mostViewedPost < element.ViewerNames.Count)
+            if (post.ViewerNames.Count < element.ViewerNames.Count)
             {
-                mostViewedPost = element.ViewerNames.Count;
                 post = element;
             }
         }
@@ -102,13 +100,11 @@ public class PostService
 
     public Post GetMostCommentedPost()
     {
-        var postCommentsCount = Posts[0].Comments.Count;
-        var post = Posts[0];
+        var post = new Post();
         foreach (var element in Posts)
         {
-            if (postCommentsCount < element.Comments.Count)
+            if (post.Comments.Count < element.Comments.Count)
             {
-                postCommentsCount = element.Comments.Count;
                 post = element;
             }
         }
@@ -121,7 +117,7 @@ public class PostService
         foreach (var post in Posts)
         {
             var getComments = post.Comments;
-            if (getComments.Contains(comment))
+            if (getComments.Contains(comment) is true)
             {
                 sortedPosts.Add(post);
             }
