@@ -72,12 +72,12 @@ public class PostService
     {
         var mostViewedPost = Posts[0].ViewerNames.Count;
         var post = Posts[0];
-        for (var i = 0; i < Posts.Count(); i++)
+        foreach (var element in Posts)
         {
-            if (mostViewedPost < Posts[i].ViewerNames.Count)
+            if (mostViewedPost < element.ViewerNames.Count)
             {
-                mostViewedPost = Posts[i].ViewerNames.Count;
-                post = Posts[i];
+                mostViewedPost = element.ViewerNames.Count;
+                post = element;
             }
         }
 
@@ -88,12 +88,12 @@ public class PostService
     {
         var postLikesCount = Posts[0].QuantityLikes;
         var post = Posts[0];
-        for (var i = 0; i < Posts.Count(); i++)
+        foreach (var element in Posts)
         {
-            if (postLikesCount < Posts[i].QuantityLikes)
+            if (postLikesCount < element.QuantityLikes)
             {
-                postLikesCount = Posts[i].QuantityLikes;
-                post = Posts[i];
+                postLikesCount = element.QuantityLikes;
+                post = element;
             }
         }
 
@@ -104,12 +104,12 @@ public class PostService
     {
         var postCommentsCount = Posts[0].Comments.Count;
         var post = Posts[0];
-        for (var i = 0; i < Posts.Count(); i++)
+        foreach (var element in Posts)
         {
-            if (postCommentsCount < Posts[i].Comments.Count)
+            if (postCommentsCount < element.Comments.Count)
             {
-                postCommentsCount = Posts[i].Comments.Count;
-                post = Posts[i];
+                postCommentsCount = element.Comments.Count;
+                post = element;
             }
         }
 
