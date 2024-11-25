@@ -8,6 +8,7 @@ public class PostService
     public PostService()
     {
         Posts = new List<Post>();
+        DataSeed();
     }
 
     public Post AddPost(Post post)
@@ -172,5 +173,44 @@ public class PostService
         }
 
         return viewerNameAdded;
+    }
+
+    public void DataSeed()
+    {
+        var socialMediaPost = new Post
+        {
+            Id = Guid.NewGuid(),
+            OwnerName = "John Doe",
+            Type = "Photo",
+            Description = "Sunset at the beach. Nature is so beautiful!",
+            PostedTime = DateTime.Now.AddHours(-2),
+            QuantityLikes = 150,
+            Comments = { "Stunning view!", "I wish I was there!", "Amazing shot!" },
+            ViewerNames = { "Alice", "Bob", "Charlie" }
+        };
+
+        var productAdPost = new Post
+        {
+            Id = Guid.NewGuid(),
+            OwnerName = "TechCorp",
+            Type = "Advertisement",
+            Description = "Introducing our latest smartphone with cutting-edge features. Available now!",
+            PostedTime = DateTime.Now.AddDays(-1),
+            QuantityLikes = 500,
+            Comments = { "Looks great!", "What’s the price?", "Can’t wait to get mine!" },
+            ViewerNames = { "Eve", "Frank", "Grace", "Hannah" }
+        };
+
+        var eventAnnouncementPost = new Post
+        {
+            Id = Guid.NewGuid(),
+            OwnerName = "City Hall",
+            Type = "Event",
+            Description = "Join us for the annual Charity Run 2024. Let’s make a difference together!",
+            PostedTime = DateTime.Now.AddDays(-7),
+            QuantityLikes = 200,
+            Comments = { "Count me in!", "Great initiative!", "How can I register?" },
+            ViewerNames = { "Ivy", "Jack", "Karen", "Liam", "Mia" }
+        };
     }
 }
