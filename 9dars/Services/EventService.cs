@@ -99,7 +99,7 @@ public class EventService
         var responseEvent = new Event();
         foreach (var meet in Events)
         {
-            if (meet.Tags.Count < responseEvent.Tags.Count)
+            if (meet.Tags.Count > responseEvent.Tags.Count)
             {
                 responseEvent = meet;
             }
@@ -126,6 +126,31 @@ public class EventService
         Events[Events.IndexOf(meet)] = meet;
 
         return true;
+    }
+
+    public void GetEventAttendees()
+    {
+        foreach (var meet in Events)
+        {
+            foreach (var item in meet.Attendees)
+            {
+                Console.Write($"{item}, ");
+            }
+        }
+    }
+
+    public void GetEventTags()
+    {
+        foreach (var meet in Events)
+        {
+            foreach (var item in meet.Tags)
+            {
+                Console.Write($"{item}, ");
+            }
+        }
+
+        Console.WriteLine();
+        Console.WriteLine();
     }
 
     private void DataSeed()
@@ -176,6 +201,7 @@ public class EventService
 
         Events.Add(codingWorkshop);
         Events.Add(networkingNight);
-        Events.Add(networkingNight);
+        Events.Add(workshop);
+        Events.Add(techConference);
     }
 }
